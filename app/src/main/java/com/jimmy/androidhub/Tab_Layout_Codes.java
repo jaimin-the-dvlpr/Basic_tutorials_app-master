@@ -1,7 +1,6 @@
 package com.jimmy.androidhub;
 
 import android.annotation.SuppressLint;
-import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -9,16 +8,12 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.jimmy.androidhub.Codes_java.Activity_Main_java;
 import com.jimmy.androidhub.Codes_java.Main_Activity_java;
 import com.jimmy.androidhub.Codes_java.fragment3;
@@ -41,7 +36,7 @@ public class Tab_Layout_Codes extends AppCompatActivity {
     String isChecked;
     String name = "";
     int image = 0;
-    TextView txt, txtname;
+    TextView txt;
     Button favcode;
 
     @Override
@@ -65,55 +60,6 @@ public class Tab_Layout_Codes extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        name = getIntent().getStringExtra("name");
-        image = getIntent().getIntExtra("image", 0);
-
-        dbO = new DBManager(this);
-        dbO.open();
-
-        Cursor cursor = dbO.fetch(name);
-        if ((cursor != null) && (cursor.getCount() > 0)) {
-            isChecked = cursor.getString(0);
-            Toast.makeText(this, isChecked, Toast.LENGTH_SHORT).show();
-
-            if (isChecked == "true") {
-                favcode.setBackgroundDrawable(ContextCompat.getDrawable(viewPager.getContext(), R.drawable.ic_favorite));
-            } else {
-                favcode.setBackgroundDrawable(ContextCompat.getDrawable(viewPager.getContext(), R.drawable.ic_fav_light));
-            }
-
-        }
-        dbO.close();
-
-
-        favcode.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Toast.makeText(Tab_Layout_Codes.this, "Value " + isChecked, Toast.LENGTH_SHORT).show();
-
-                if (isChecked == "true") {
-                    dbO.open();
-                    dbO.delete(name);
-                    Toast.makeText(getApplication(), "Data deleted", Toast.LENGTH_SHORT).show();
-                    dbO.close();
-                    favcode.setBackgroundDrawable(ContextCompat.getDrawable(viewPager.getContext(), R.drawable.ic_fav_light));
-                    isChecked = "false";
-
-                } else {
-                    dbO.open();
-                    dbO.insert(name, image);
-                    dbO.close();
-                    Toast.makeText(getApplication(), "Data inserted", Toast.LENGTH_SHORT).show();
-
-                    favcode.setBackgroundDrawable(ContextCompat.getDrawable(viewPager.getContext(), R.drawable.ic_favorite));
-                    isChecked = "true";
-
-                }
-
-            }
-        });
-
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -132,6 +78,7 @@ public class Tab_Layout_Codes extends AppCompatActivity {
         } else {
             adapter.addFragment(new Main_Activity_java(), "Main_Actity.kt");
             adapter.addFragment(new Activity_Main_java(), "activity_main.xml");
+
         }
         //   adapter.addFragment(new ThreeFragment(), "THREE");
         viewPager.setAdapter(adapter);

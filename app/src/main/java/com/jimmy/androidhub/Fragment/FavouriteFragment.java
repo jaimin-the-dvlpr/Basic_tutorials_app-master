@@ -53,9 +53,8 @@ public class FavouriteFragment extends android.support.v4.app.Fragment {
         super.onActivityCreated(savedInstanceState);
         getActivity().setTitle("Favourite");
 
-        toolbar = getView().findViewById(R.id.toolfav); // get the reference of Toolbar
+
         AppCompatActivity activity = (AppCompatActivity) getActivity();
-        activity.setSupportActionBar(toolbar);
         dbManager = new DBManager(getActivity());
         dbManager.open();
 

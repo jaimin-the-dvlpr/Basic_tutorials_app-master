@@ -4,17 +4,9 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbarcodedemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    </android.support.v7.widget.Toolbar>
     <ListView
         android:id="@+id/listjava"
-        android:layout_below="@+id/toolbarcodedemo"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

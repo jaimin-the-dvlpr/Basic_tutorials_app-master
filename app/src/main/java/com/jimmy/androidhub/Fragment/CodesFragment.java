@@ -59,9 +59,7 @@ public class CodesFragment extends Fragment {
         getActivity().setTitle("Codes");
 
 
-        toolbarcode = getView().findViewById(R.id.toolbarcodedemo);
         AppCompatActivity activity = (AppCompatActivity) getActivity();
-        activity.setSupportActionBar(toolbarcode);
         listView = (ListView) getView().findViewById(R.id.listjava);
 //         btn = (Button) getView().findViewById(R.id.searchdemodemo);
 

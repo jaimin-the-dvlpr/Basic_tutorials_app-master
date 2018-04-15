@@ -3,17 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolfav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark">
-
-    </android.support.v7.widget.Toolbar>
-
     <ListView
-        android:layout_below="@+id/toolfav"
         android:id="@+id/favlistfrag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

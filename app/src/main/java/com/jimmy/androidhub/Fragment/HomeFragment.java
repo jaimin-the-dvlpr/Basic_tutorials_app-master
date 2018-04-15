@@ -50,10 +50,7 @@ public class HomeFragment extends android.support.v4.app.Fragment {
         super.onActivityCreated(savedInstanceState);
         getActivity().setTitle("Tutorials");
 
-
-        toolbar = getView().findViewById(R.id.toolhome); // get the reference of Toolbar
         AppCompatActivity activity = (AppCompatActivity) getActivity();
-        activity.setSupportActionBar(toolbar);
         recyclerView = (RecyclerView) getView().findViewById(R.id.rv);
         card = getView().findViewById(R.id.card_view);
         mAdapter = new Tutorials_Adapter(movieList);
