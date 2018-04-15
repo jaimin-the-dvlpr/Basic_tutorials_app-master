@@ -48,8 +48,6 @@ public class HomeFragment extends android.support.v4.app.Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        getActivity().setTitle("Tutorials");
-
         AppCompatActivity activity = (AppCompatActivity) getActivity();
         recyclerView = (RecyclerView) getView().findViewById(R.id.rv);
         card = getView().findViewById(R.id.card_view);

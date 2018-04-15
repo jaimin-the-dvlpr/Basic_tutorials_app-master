@@ -56,8 +56,6 @@ public class CodesFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        getActivity().setTitle("Codes");
-
 
         AppCompatActivity activity = (AppCompatActivity) getActivity();
         listView = (ListView) getView().findViewById(R.id.listjava);

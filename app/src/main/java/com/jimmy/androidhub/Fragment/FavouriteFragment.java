@@ -43,7 +43,6 @@ public class FavouriteFragment extends android.support.v4.app.Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-
         return inflater.inflate(R.layout.favourite_fragment, container, false);
 
     }
@@ -51,8 +50,6 @@ public class FavouriteFragment extends android.support.v4.app.Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        getActivity().setTitle("Favourite");
-
 
         AppCompatActivity activity = (AppCompatActivity) getActivity();
         dbManager = new DBManager(getActivity());
