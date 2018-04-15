@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_below="@+id/tool"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/b1"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Create a New Android Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/b2"
+            android:layout_below="@+id/b1"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Create a New Android Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bi1"
+            android:layout_below="@+id/b2"
+            android:background="@drawable/buildappone"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/b3"
+            android:layout_below="@+id/bi1"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Create a New Android Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bi3"
+            android:layout_below="@+id/b3"
+            android:background="@drawable/buildapptwo"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/b4"
+            android:layout_below="@+id/bi3"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Create a New Android Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bi4"
+            android:layout_below="@+id/b4"
+            android:background="@drawable/buildappthree"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/b6"
+            android:layout_below="@+id/bi4"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Create a New Android Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bi6"
+            android:layout_below="@+id/b6"
+            android:background="@drawable/buildappfour"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+
+        <TextView
+            android:id="@+id/b7"
+            android:layout_below="@+id/bi6"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Create a New Android Project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bi7"
+            android:layout_below="@+id/b7"
+            android:background="@drawable/buildappfive"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+
+
+<TextView
+    android:id="@+id/dw"
+    android:textSize="20dp"
+    android:layout_margin="5dp"
+    android:text="Now after Some Processing Android Studio Opens an IDE which Looks as:"
+    android:layout_below="@+id/bi7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+        <ImageView
+
+            android:layout_below="@+id/dw"
+            android:background="@drawable/buildappsix"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+</RelativeLayout>

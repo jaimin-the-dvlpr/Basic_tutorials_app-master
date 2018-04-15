@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/com1"
+                android:text="Android Components"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:background="@drawable/componentsdemo"
+                android:layout_below="@+id/com1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/com2"
+                android:text="Activities :"
+                android:layout_margin="10dp"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com4"
+                android:text="Description :"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@+id/com2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com5"
+                android:text="Services :"
+                android:layout_margin="10dp"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/com4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com6"
+                android:text="Description :"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@+id/com5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/com7"
+                android:text="Broadcast Receivers"
+                android:layout_margin="10dp"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/com6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com8"
+                android:text="Description :"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@+id/com7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com9"
+                android:text="Content Providers"
+                android:layout_margin="10dp"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/com8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com10"
+                android:text="Description :"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@+id/com9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/com11"
+                android:text="Additional Components"
+                android:layout_margin="10dp"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/com10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/com12"
+                android:text="Description :"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@+id/com11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

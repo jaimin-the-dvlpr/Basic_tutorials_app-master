@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </android.support.v7.widget.Toolbar>
+        <ScrollView
+            android:layout_below="@+id/tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/activitydemo"
+                android:layout_margin="5dp"
+                android:text="Using Kotlin for Server-side Development"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/interview_que_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/k1"
+                android:layout_below="@+id/activitydemo"
+                android:layout_margin="5dp"
+                android:text="demo"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+              <TextView
+                  android:id="@+id/activitydemo2"
+                  android:layout_margin="5dp"
+                  android:layout_below="@+id/k1"
+                  android:text="Frameworks for Server-side Development with Kotlin"
+                  android:textSize="25dp"
+                  android:textStyle="bold"
+                  android:textColor="@color/interview_que_color"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+
+              <TextView
+                  android:id="@+id/k2"
+                  android:layout_below="@+id/activitydemo2"
+                  android:layout_margin="5dp"
+                  android:text="demo"
+                  android:textSize="20dp"
+                  android:textColor="@color/black"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+          </RelativeLayout>
+        </ScrollView>
+
+
+
+
+</RelativeLayout>

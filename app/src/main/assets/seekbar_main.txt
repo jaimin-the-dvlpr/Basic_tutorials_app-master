@@ -1,0 +1,54 @@
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
+import android.view.View
+import android.widget.Button
+import android.widget.SeekBar
+import android.widget.TextView
+import android.widget.Toast
+import com.jimmy.androidhub.MainActivity
+import com.jimmy.androidhub.R
+
+class Seekbar_Codes : AppCompatActivity() {
+
+    private var seekBar: SeekBar? = null
+    private var textView: TextView? = null
+
+    internal lateinit var tool: Toolbar
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.seekbar_codes)
+
+        tool = findViewById(R.id.tool)
+        setSupportActionBar(tool)
+        val actionBar = supportActionBar
+        actionBar!!.setHomeButtonEnabled(true)
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
+        seekBar = findViewById<View>(R.id.seekBar1) as SeekBar
+        textView = findViewById<View>(R.id.textView1) as TextView
+
+        textView!!.text = "Covered: " + seekBar!!.progress + "/" + seekBar!!.max
+
+        seekBar!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            internal var progress = 0
+
+            override fun onProgressChanged(seekBar: SeekBar, progresValue: Int, fromUser: Boolean) {
+                progress = progresValue
+                Toast.makeText(applicationContext, "Changing seekbar's progress", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar) {
+                Toast.makeText(applicationContext, "Started tracking seekbar", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onStopTrackingTouch(seekBar: SeekBar) {
+                textView!!.text = "Covered: " + progress + "/" + seekBar.max
+                Toast.makeText(applicationContext, "Stopped tracking seekbar", Toast.LENGTH_SHORT).show()
+            }
+        })
+    }
+
+
+}
+

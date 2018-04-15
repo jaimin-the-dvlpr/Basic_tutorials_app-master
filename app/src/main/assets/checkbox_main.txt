@@ -1,0 +1,20 @@
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.widget.CheckBox
+import android.widget.Toast
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val checkBox = findViewById<CheckBox>(R.id.checkBox)
+
+        checkBox?.setOnCheckedChangeListener {
+            buttonView, isChecked ->
+            val msg = "You have " + (if (isChecked) "checked" else "unchecked") + " this Check it Checkbox."
+            Toast.makeText(this@MainActivity, msg, Toast.LENGTH_SHORT).show()
+        }
+    }
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimmy.androidhub">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tutorials_Android_Quiz.QuestionActivity" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tutorials_Android_Quiz.QuestionActivity1"  android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Tutorials_Android_Quiz.ResultActivity" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Android_Assignment" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Android_Interview_Quetions" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Android_Intoduction" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Android_Layouts" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".Settings_Activitys.About_US_Android" android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Introduction.Android_introduction2" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Introduction.Android_History_Versions" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Introduction.Why_Android" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Introduction.Android_Application_Components" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Introduction.Android_Environmental_Setup" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tab_Layout_Codes" android:parentActivityName=".Tab_Layout_Codes"/>
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Introduction.Build_First_app" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction" />
+
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorial_Android_Layout.Introduction_Layout" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorial_Android_Layout.Linear" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorial_Android_Layout.Relative" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorial_Android_Layout.Table" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorial_Android_Layout.Frame" android:parentActivityName=".Tutorials_Activitry.Android_Intoduction"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".Codes_output.Textview_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Codes_output.Button_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Codes_output.CheckBox_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Codes_output.Edittext_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Codes_output.RadioButton_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Codes_output.Ratingbar_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Kotlin_ServerSide"  android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".Tutorials_Activitry.Tutorials_Android_Kotlin"  android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".Codes_output.ProgressBar_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+
+        <activity
+            android:name=".Codes_output.Seekbar_Codes"  android:parentActivityName=".Tab_Layout_Codes"/>
+    </application>
+</manifest>

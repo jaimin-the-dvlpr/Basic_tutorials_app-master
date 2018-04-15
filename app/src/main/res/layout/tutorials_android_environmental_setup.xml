@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="22dp"
+                android:text="System Requirements"
+                android:textColor="@color/interview_que_color"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_below="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="System Requirements"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/a3"
+                android:layout_below="@+id/a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Setup Android Studio"
+                android:textColor="@color/interview_que_color"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/a4"
+                android:layout_below="@+id/a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Setup Android Studio"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <ImageView
+                    android:id="@+id/img1"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/a4"
+                android:background="@drawable/androidinstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/a5"
+                android:layout_below="@id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="What is Android?"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/a5"
+                android:background="@drawable/androidinstalled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/a6"
+                android:layout_below="@id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="What is Android?"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

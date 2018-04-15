@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imaged"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/w3bloglogo" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/imaged"
+        android:fontFamily="serif"
+        android:text="name"
+        android:textColor="#666363"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:typeface="sans"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/iddemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/name"
+        android:text="1"
+        android:visibility="invisible"
+        android:textColor="#666363"
+        android:textSize="18sp"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/output"-->
+        <!--android:background="@drawable/ic_output"-->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_margin="6dp"-->
+        <!--android:layout_toLeftOf="@+id/favbuttondemo"-->
+        <!--android:layout_height="35dp" />-->
+    <!--<Button-->
+        <!--android:id="@+id/favbuttondemo"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@drawable/ic_fav_light"-->
+        <!--android:layout_width="25dp"-->
+        <!--android:layout_height="25dp" />-->
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true">
+
+            <android.support.design.widget.FloatingActionButton
+              android:id="@+id/fabcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fabSize="mini"
+                android:layout_margin="5dp"
+                app:backgroundTint="@color/interview_que_color"
+                app:srcCompat="@drawable/ic_output"
+                />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

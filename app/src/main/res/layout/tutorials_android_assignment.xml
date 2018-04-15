@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/unit1"
+            android:text=" Unit I"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/assignment"
+            android:layout_below="@+id/unit1"
+            android:text=" What is Layout?"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/unit2"
+                android:text=" Unit II"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:layout_below="@+id/assignment"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/assignment2"
+                android:layout_below="@+id/unit2"
+                android:text=" What is Layout?"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/unit3"
+                android:text=" Unit III"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:layout_below="@+id/assignment2"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/assignment3"
+                android:layout_below="@+id/unit3"
+                android:text=" What is Layout?"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/unit4"
+                android:text=" Unit IV"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/interview_que_color"
+                android:textSize="22dp"
+                android:layout_below="@+id/assignment3"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/assignment4"
+                android:layout_below="@+id/unit4"
+                android:text=" What is Layout?"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

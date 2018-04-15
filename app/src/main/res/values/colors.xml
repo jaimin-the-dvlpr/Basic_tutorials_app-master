@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c70700</color>
+    <color name="colorPrimaryDark">#101010</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nav_view">#336699</color>
+    <color name="black">#090909</color>
+    <color name="green">#21f22b</color>
+
+    //Interview Textview Colors
+
+    <color name="interview_que_color">#336699</color>
+    <color name="interview_ans_color">#090909</color>
+
+    // Theme Change Colors
+    <color name="darkColorPrimary">#1e2756</color>
+    <color name="darkColorPrimaryDark">#141831</color>
+    <color name="darkColorAccent">#2aac4b</color>
+
+</resources>

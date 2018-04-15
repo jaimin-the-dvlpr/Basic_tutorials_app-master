@@ -1,0 +1,34 @@
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.text.Editable
+import android.text.TextWatcher
+import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
+import com.jimmy.androidhub.R
+
+class Edittext_Codes : AppCompatActivity() {
+
+       internal abstract var edittext: EditText
+      override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.edittext)
+        edittext = findViewById(R.id.editText)
+        edittext.addTextChangedListener(object : TextWatcher {
+
+            override fun beforeTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {
+
+            }
+
+            override fun onTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {
+                val s = edittext.text.toString()
+                Toast.makeText(this@Edittext_Codes, s, Toast.LENGTH_SHORT).show()
+            }
+
+            override fun afterTextChanged(editable: Editable) {
+
+            }
+        })
+
+    }
+}

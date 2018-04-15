@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android hub..!!</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="android_aboutus"> Thanks For Downloading this App. If you like this app please share. This app Helps its users to learn Android. I do Changes as per given feedback on play store. I eagerly await suggestions, constructive criticism and new ideas for the improvement of the app from my precious friends and followers. If you want to share any post or want to give any feedback than please mail us: admin@gmail.com</string>
+    <string name="android_aboutus1">Learn do earn by getting expertisation in Android technology by using android learning app.</string>
+
+
+    <array name="ok">
+
+
+        hello howare
+    </array>
+
+</resources>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/que1"
+            android:textStyle="bold"
+            android:textColor="@color/interview_que_color"
+            android:text="What is Android??"
+            android:textSize="22dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans1"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que2"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans2"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que3"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans3"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que4"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans4"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que5"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ans5"
+            android:textColor="@color/interview_ans_color"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que6"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans6"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que7"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans7"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/que8"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans8"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/que9"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans9"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que10"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans10"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que11"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans11"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que12"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans12"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que13"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans13"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que14"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/ans14"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/que15"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans15"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que16"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans16"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que17"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans17"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que18"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ans18"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que19"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ans19"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/que20"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans20"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que21"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans21"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que22"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ans22"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que23"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans23"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que24"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans24"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/que25"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans25"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que26"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans26"
+            android:text="Answer"
+            android:textColor="@color/interview_ans_color"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que27"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans27"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que28"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans28"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que29"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans29"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/que30"
+            android:text="What is Android??"
+            android:textColor="@color/interview_que_color"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/ans30"
+            android:text="Answer"
+            android:textSize="20dp"
+            android:textColor="@color/interview_ans_color"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

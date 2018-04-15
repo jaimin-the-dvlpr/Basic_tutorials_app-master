@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/interview_que_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Score : 0"
+        android:textColor="#ffffff"
+        android:textSize="25.0sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/timers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="00:00:49"
+        android:textColor="#ffffff"
+        android:textSize="25.0sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/timers"
+        android:layout_width="250dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="What is Android ??"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_below="@+id/card"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffd8d8"
+        android:gravity="center"
+       android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="device"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#ffd8d8"
+        android:gravity="center"
+        android:text="29"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_below="@+id/button2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="#ffd8d8"
+        android:gravity="center"
+        android:text="32"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</RelativeLayout>
